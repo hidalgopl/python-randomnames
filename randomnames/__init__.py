@@ -1,4 +1,4 @@
 
-from .nouns import NOUNS
-from .adjectives import ADJECTIVES
+from .nouns import NOUNS, ANIMALS
+from .adjectives import ADJECTIVES, POLITE_ADJECTIVES
 from utils import *

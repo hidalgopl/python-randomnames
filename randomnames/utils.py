@@ -1,6 +1,6 @@
 
-from .nouns import NOUNS
-from .adjectives import ADJECTIVES
+from .nouns import NOUNS, ANIMALS
+from .adjectives import ADJECTIVES, POLITE_ADJECTIVES
 import random
 
 def random_noun():
@@ -17,7 +17,6 @@ def random_polite_adjective():
 
 def random_namepair():
     return u"{} {}".format(random_adjective(), random_noun())
-
 
 def random_polite_animalpair():
     return u"{} {}".format(random_polite_adjective(), random_animal())
